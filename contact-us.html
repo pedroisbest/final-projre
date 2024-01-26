@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="images/500-5006128_thumb-image-yin-yang-symbol-png-transparent-png-removebg-preview.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <!-- Internal Styling -->
+  <style>
+    /* fixes form placing */
+  form {
+  display: grid;
+  grid-gap: 10px;
+  }
+  /* makes the button and the animation */
+  button {
+      width: 200px;
+  padding: 15px;
+  margin: 20px 5px;
+  text-align: center;
+  border-radius: 25px;
+  color: #ff7700;
+  font-size: 20px;
+  background-color: black;
+  cursor: pointer;
+  font-weight: bold;
+  border: 4px solid #ff7700;
+  }
+    button:hover {
+  background-color: #ff7700;
+  color: white;
+  transition: 0.5s;
+    }
+  </style>
+
+  <!-- Nav bar -->
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="Facilities.html">Facilities</a>
+        </li>
+        <li><a href="Schedule.html">Schedule & Classes</a></li>
+        <li><a href="Specials.html">Specials</a></li>
+        <li><a href="contact-us.html" class="active">Contact Us</a></li>
+      </ul>
+      <img
+        class="logo"
+        src="images/731fbf_8439494220fdd5c474ad985f3a1d728f.webp" />
+    </nav>
+
+    <!-- Content and forms for contact -->
+    <h1>Contact Us</h1>
+  </br>
+
+  <section
+      style="margin-bottom: 0px; padding-top: 20px; margin-left: 25%; margin-right: 25%;">
+      <form action="index.html" method="get">
+        <label for="name" style="text-decoration:bold; height: 30px;">Name:</label>
+        <input type="text" id="name" rows="3" name="name" required />
+
+        <label for="email" style="text-decoration:bold; height: 30px;">Email:</label>
+        <input type="email" id="email" rows="3" name="email" required />
+
+        <label for="message" style="text-decoration:bold;;">Talk to us:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Address -->
+    <h1>Visit Us</h1>
+  </br>
+    <pre style="text-align: center;">
+1139 Sanford Street
+Winnipeg, Manitoba
+ddragon@shaw.ca
+Tel: 204-885-8020
+    </pre>
+
+    <!-- Footer -->
+    <footer style="padding-top: 15px; padding-bottom: 10px;">
+      <div class="hours">
+        <h2>Hours of Operation</h2>
+        <ul>
+          <li>Mon: 11:45 am - 1:15 pm, 4:45 pm - 8:15 pm</li>
+          <li>Tue: 4:45 pm - 8:15 pm</li>
+          <li>Wed: 11:45 am - 1:15 pm, 4:45 pm - 8:15 pm</li>
+          <li>Thu: 4:45 pm - 8:15 pm</li>
+          <li>Fri: 11:45 am - 1:15 pm, 4:45 pm - 8:15 pm</li>
+          <li>Sat: 11:45 am - 2:15 pm,</li>
+        </ul>
+      </div>
+      <div class="address">
+        <h2>Address</h2>
+        <ul>
+          <li>1139 Sanford Street</li>
+          <li>Winnipeg, Manitoba</li>
+          <li>ddragon@shaw.ca</li>
+          <li>Tel: (204)885-8020</li>
+        </ul>
+      </div>
+      <a
+        href="https://www.facebook.com/pages/Double-Dragon-Kickboxing-muay-thai/17297796087"
+        target="_blank"
+        style="text-decoration: none">
+        <img
+          src="images/Facebook_f_logo_(2019).svg.png"
+          alt="Link to Facebook Page" />
+      </a>
+    </footer>
+  </body>
+</html>
